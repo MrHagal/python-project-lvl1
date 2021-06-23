@@ -8,7 +8,7 @@ def parity_check():
     name = main2()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     while count != 3:
-        number = random.randint(1, 10)
+        number = random.randint(1, 100)
         print('Question:', number)
         answer = input('Your answer: ')
         if number % 2 == 0 and answer == 'yes':
@@ -18,8 +18,8 @@ def parity_check():
             count += 1
             print('Correct')
         else:
-            print(f"'yes' is wrong answer ;(. Correct answer was 'no'. Let's try again, {name}!")
+            print(f"'yes' is wrong answer ;(. Correct answer was 'no'."
+                  f"\nLet's try again, {name}!")
             break
         if count == 3:
             print(f'Congratulations, {name}!')
-
