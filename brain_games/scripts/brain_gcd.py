@@ -17,6 +17,7 @@ def nod():
         result = number_1
         # НОД
         answer = input('Your answer: ')
+
         if str(result) == answer:
             count += 1
             print('Correct!')

@@ -21,6 +21,7 @@ def calc():
         result = operation_sign[chosen](number_1, number_2)  # получаем результат от ариф. операции
         print(f'Question: {number_1} {chosen} {number_2}')
         answer = input('Your answer: ')
+
         if str(result) == answer:
             count += 1
             print('Correct!')
