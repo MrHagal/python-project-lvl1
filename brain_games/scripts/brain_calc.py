@@ -24,9 +24,9 @@ def calc():
         if str(result) == answer:
             count += 1
             print('Correct!')
-            if count == 3:
-                print(f'Congratulations, {name}!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.\n"
-                  f"Let's try again, {name}")
+                  f"Let's try again, {name}!")
             break
+        if count == 3:
+            print(f'Congratulations, {name}!')
