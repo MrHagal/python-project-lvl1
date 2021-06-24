@@ -28,5 +28,5 @@ def calc():
                 print(f'Congratulations, {name}!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.\n"
-            f"Let's try again, {name}")
+                  f"Let's try again, {name}")
             break

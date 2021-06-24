@@ -12,3 +12,4 @@ src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability"
 <a href="https://asciinema.org/a/R5ejiZqLKVd0xE9PUrrGUVTqx" target="_blank"><img src="https://asciinema.org/a/R5ejiZqLKVd0xE9PUrrGUVTqx.svg" /></a>
 <a href="https://asciinema.org/a/oda62H5Je1DMHRXtszn3JDAGV" target="_blank"><img src="https://asciinema.org/a/oda62H5Je1DMHRXtszn3JDAGV.svg" /></a>
 <a href="https://asciinema.org/a/NGILC2Pv514bdb9Iq8DRmo6uC" target="_blank"><img src="https://asciinema.org/a/NGILC2Pv514bdb9Iq8DRmo6uC.svg" /></a>
+<a href="https://asciinema.org/a/TJEAv9Hn592Q4kxHkTHddqCGK" target="_blank"><img src="https://asciinema.org/a/TJEAv9Hn592Q4kxHkTHddqCGK.svg" /></a>
