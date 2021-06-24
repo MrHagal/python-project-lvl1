@@ -15,8 +15,8 @@ def progression():
             step = random.randint(1, 20)
             for i in range(number_1, number_2, step):
                 random_list.append(i)
-
-        random_point_list = random.randint(0, len(random_list) - 1)  # random index
+        # random index
+        random_point_list = random.randint(0, len(random_list) - 1)
         result = random_list[random_point_list]  # результат для сверки
         random_list[random_point_list] = '..'  # замена index на '..'
 
@@ -27,8 +27,8 @@ def progression():
             count += 1
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.\n"
-                  f"Let's try again, {name}!")
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{result}'.\n Let's try again, {name}!")
             break
         if count == 3:
             print(f'Congratulations, {name}!')
