@@ -16,9 +16,11 @@ def calc():
     while count != 3:
         number_1 = random.randint(1, 10)
         number_2 = random.randint(1, 10)
-        actions = list(operation_sign.keys())  # конвертируем dict в list для choice
+        # конвертируем dict в list для choice
+        actions = list(operation_sign.keys())
         chosen = random.choice(actions)
-        result = operation_sign[chosen](number_1, number_2)  # получаем результат от ариф. операции
+        # получаем результат от ариф. операции
+        result = operation_sign[chosen](number_1, number_2)
         print(f'Question: {number_1} {chosen} {number_2}')
         answer = input('Your answer: ')
 

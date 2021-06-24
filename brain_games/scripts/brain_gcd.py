@@ -27,4 +27,3 @@ def nod():
             break
         if count == 3:
             print(f'Congratulations, {name}!')
-
