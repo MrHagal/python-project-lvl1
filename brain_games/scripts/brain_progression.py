@@ -1,34 +1,16 @@
-import random
-from brain_games.scripts.brain_games import main2
+#!/usr/bin/env python
+from brain_games.games.progression import random_point, introduction_question
+from brain_games.engine_brain import count_algo_check
 
 
-def progression():
-    name = main2()
-    print('What number is missing in the progression?')
-    count = 0
-    while count != 3:
-        random_list = []
-        while len(random_list) not in range(5, 10):  # генерируем лист
-            random_list = []
-            number_1 = random.randint(1, 50)
-            number_2 = random.randint(51, 100)
-            step = random.randint(1, 20)
-            for i in range(number_1, number_2, step):
-                random_list.append(i)
-        # random index
-        random_point_list = random.randint(0, len(random_list) - 1)
-        result = random_list[random_point_list]  # результат для сверки
-        random_list[random_point_list] = '..'  # замена index на '..'
+def main():
+    count_algo_check(random_point, introduction_question)  # передаем аргумент как функцию
 
-        print('Question:', *random_list)
-        answer = input('Your answer: ')
 
-        if str(result) == answer:
-            count += 1
-            print('Correct!')
-        else:
-            print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{result}'.\n Let's try again, {name}!")
-            break
-        if count == 3:
-            print(f'Congratulations, {name}!')
+if __name__ == '__main__':
+    main()
+
+
+
+
+

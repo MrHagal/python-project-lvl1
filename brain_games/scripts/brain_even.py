@@ -1,25 +1,12 @@
 #!/usr/bin/env python
-import random
-from brain_games.scripts.brain_games import main2
+from brain_games.games.even import even_up, introduction_question
+from brain_games.engine_brain import count_algo_check
 
 
-def parity_check():
-    count = 0
-    name = main2()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    while count != 3:
-        number = random.randint(1, 100)
-        print('Question:', number)
-        answer = input('Your answer: ')
-        if number % 2 == 0 and answer == 'yes':
-            count += 1
-            print('Correct')
-        elif number % 2 != 0 and answer == 'no':
-            count += 1
-            print('Correct')
-        else:
-            print(f"'yes' is wrong answer ;(. Correct answer was 'no'."
-                  f"\nLet's try again, {name}!")
-            break
-        if count == 3:
-            print(f'Congratulations, {name}!')
+
+def main():
+    count_algo_check(even_up, introduction_question)  # передаем аргумент как функцию
+
+
+if __name__ == '__main__':
+    main()
