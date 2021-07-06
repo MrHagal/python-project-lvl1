@@ -11,5 +11,4 @@ def even_up():
     number = random.randint(1, 100)
     if number % 2 == 0:
         return [number], 'yes'
-    if number % 2 != 0:
-        return [number], 'no'
+    return [number], 'no'
