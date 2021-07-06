@@ -11,6 +11,4 @@ jobs:
           ls ${{ github.workspace }}
       - name: Install poetry and make lint
         run: |
-          pip install poetry
-          make install
           make lint
