@@ -11,4 +11,6 @@ jobs:
           ls ${{ github.workspace }}
       - name: Install poetry and make lint
         run: |
-          make lint
+          pip install poetry
+          poetry install
+          poetry run flake8 brain_games
