@@ -5,10 +5,15 @@ from brain_games.сongratulations_defeat import check_games
 
 
 def count_algo_check(algo_games, introduction):
-    count_all = 3  # определяем константу количество игр
-    expression = 0  # счетчик игр
-    name = welcome_user()  # приветствуем и вводим имя
-    introduction()  # Краткое введение в игру
+    # определяем константу количество игр
+    count_all = 3
+    # счетчик игр
+    expression = 0
+    # приветствуем и вводим имя
+    name = welcome_user()
+    # Краткое введение в игру
+    introduction()
     while expression != count_all:
-        result_answer = algo_games()  # функция алгорима передаваемая как аргумент
+        # функция алгорима передаваемая как аргумент
+        result_answer = algo_games()
         expression = check_games(name, result_answer, count_all, expression)

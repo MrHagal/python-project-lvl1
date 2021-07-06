@@ -15,7 +15,8 @@ def check_games(name, result_answer, count_all, expression):
             return expression
     else:
         print(f"'{answer}' is wrong answer ;(. "
-              f"Correct answer was '{result_answer[1]}'.\n Let's try again, {name}!")
+              f"Correct answer was '{result_answer[1]}'."
+              f"\n Let's try again, {name}!")
         expression = count_all
         return expression
 
