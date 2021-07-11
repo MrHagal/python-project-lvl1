@@ -7,7 +7,7 @@ ______
 
 <p align="center">
   <a href="">
-    <img src="https://github.com/MrHagal/python-project-lvl1/brain-games.jpg"
+    <img src="https://github.com/MrHagal/python-project-lvl1/blob/main/brain-games.jpg"
          alt="My first project">
   </a>
 </p>
