@@ -9,8 +9,7 @@ ______
 
 <p align="center">
   <a href="">
-    <img src="https://github.com/MrHagal/python-project-lvl1/blob/main/brain-games.jpg width="100%"
-         alt="My first project">
+    <img src="https://github.com/MrHagal/python-project-lvl1/blob/main/brain-games.jpg width:70%; height:auto;>
   </a>
 </p>
 ______
