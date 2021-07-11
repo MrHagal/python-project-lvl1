@@ -6,7 +6,7 @@ href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><i
 src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability"
 /></a>
 
-[![GitHub Actions](https://github.com/MrHagal/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/MrHagal/python-project-lvl1/actions/workflows/github-actions-demo.yml)
+[![GitHub Actions](https://github.com/MrHagal/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/MrHagal/python-project-lvl1/actions/workflows/github-actions.yml)
 
 <a href="https://asciinema.org/a/CU26pfGKEtICfFYQLTcLlZGgP" target="_blank"><img src="https://asciinema.org/a/CU26pfGKEtICfFYQLTcLlZGgP.svg" /></a>
 <a href="https://asciinema.org/a/R5ejiZqLKVd0xE9PUrrGUVTqx" target="_blank"><img src="https://asciinema.org/a/R5ejiZqLKVd0xE9PUrrGUVTqx.svg" /></a>

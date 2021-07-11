@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-from brain_games.games.even import even_up, introduction_question
-from brain_games.engine_brain import count_algo_check
+from brain_games.games.even_odd import run_even, introduction_to_game
+from brain_games.engine_brain import check_result_game
 
 
 def main():
-    # передаем аргумент как функцию
-    count_algo_check(even_up, introduction_question)
+    check_result_game(run_even, introduction_to_game)
 
 
 if __name__ == '__main__':
