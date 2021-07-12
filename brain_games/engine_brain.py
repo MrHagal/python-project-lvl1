@@ -12,4 +12,5 @@ def run_engine(run_game, introduction_to_game):
     while count_game_attempt != NUMBER_GAMES:
         result_calculation_algo = run_game()
         count_game_attempt = check_result_game(
-            name_player, result_calculation_algo, NUMBER_GAMES, count_game_attempt)
+            name_player, result_calculation_algo,
+            NUMBER_GAMES, count_game_attempt)

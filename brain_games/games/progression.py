@@ -25,4 +25,3 @@ def random_point():
     hidden_number = random_lists[random_hidden_value]
     random_lists[random_hidden_value] = '..'
     return random_lists, hidden_number
-
