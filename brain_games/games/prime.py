@@ -2,11 +2,11 @@
 import random
 
 
-def introduction_question():
+def introduction_to_game():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
-def prime_up():
+def run_prime():
     number = random.randint(2, 30)
     if number > 1:
         for i in range(2, number):

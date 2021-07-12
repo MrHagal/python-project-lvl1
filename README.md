@@ -37,6 +37,8 @@ _______
 |brain-prime|Prime number check. Answer "yes" if given number is prime. Otherwise answer "no"|hard|
 
 _____
+***The user must give the correct answer to three questions in a row to win. If the user gives an incorrect answer, the game will end.
+_____
 
 ### Presentation of the gameplay
 
