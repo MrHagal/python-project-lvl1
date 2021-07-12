@@ -23,7 +23,7 @@ Help install:
 2) pip -> https://pip.pypa.io/en/stable/installing/
 
 ### Installing a package with games
-pip install git + https: //github.com/MrHagal/python-project-lvl1.git
+pip install --user git+https://github.com/MrHagal/python-project-lvl1.git
 _______
 
 ### Games content
@@ -42,8 +42,19 @@ _____
 
 ### Presentation of the gameplay
 
+brain-even
 <a href="https://asciinema.org/a/CU26pfGKEtICfFYQLTcLlZGgP" target="_blank"><img src="https://asciinema.org/a/CU26pfGKEtICfFYQLTcLlZGgP.svg" /></a>
+_____
+brain-calc
 <a href="https://asciinema.org/a/R5ejiZqLKVd0xE9PUrrGUVTqx" target="_blank"><img src="https://asciinema.org/a/R5ejiZqLKVd0xE9PUrrGUVTqx.svg" /></a>
+_____
+brain-gcd
 <a href="https://asciinema.org/a/oda62H5Je1DMHRXtszn3JDAGV" target="_blank"><img src="https://asciinema.org/a/oda62H5Je1DMHRXtszn3JDAGV.svg" /></a>
+_____
+brain-progression
 <a href="https://asciinema.org/a/NGILC2Pv514bdb9Iq8DRmo6uC" target="_blank"><img src="https://asciinema.org/a/NGILC2Pv514bdb9Iq8DRmo6uC.svg" /></a>
+
+brain-prime
+_____
 <a href="https://asciinema.org/a/TJEAv9Hn592Q4kxHkTHddqCGK" target="_blank"><img src="https://asciinema.org/a/TJEAv9Hn592Q4kxHkTHddqCGK.svg" /></a>
+_____
