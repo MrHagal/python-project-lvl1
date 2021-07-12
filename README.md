@@ -24,7 +24,7 @@ _______
 
 ### Games content
 
-text
+text2
 
 _____
 
