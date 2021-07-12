@@ -7,7 +7,7 @@ def introduction_to_game():
     print('What number is missing in the progression?')
 
 
-def run_progression():
+def random_number_list():
     random_lists = []
     while len(random_lists) not in range(5, 10):
         random_lists = []
@@ -19,8 +19,8 @@ def run_progression():
     return random_lists
 
 
-def random_point():
-    random_lists = run_progression()
+def run_progression():
+    random_lists = random_number_list()
     random_hidden_value = random.randint(0, len(random_lists) - 1)
     hidden_number = random_lists[random_hidden_value]
     random_lists[random_hidden_value] = '..'
