@@ -16,15 +16,25 @@ ______
 
 _______
 
-### Installing a package with games
+### Install git and pip for your operating system. 
 
-Create a virtual environment and install the distribution using the command
-pip install git+https://github.com/MrHagal/python-project-lvl1.git
+Help install:
+1) git -> https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+2) pip -> https://pip.pypa.io/en/stable/installing/
+
+### Installing a package with games
+pip install git + https: //github.com/MrHagal/python-project-lvl1.git
 _______
 
 ### Games content
 
-text2
+|name games|description|difficulty level|
+|----------|-----------|----------------|
+|brain-even|Parity check. Answer "yes" if the number is even, otherwise answer "no"|easy|
+|brain-calc|Calculator. Arithmetic operations of addition, subtraction, multiplication of numbers.|easy|
+|brain-gcd|Find the greatest common denominator (GCD) of two random numbers, for example 25 50|medium|
+|brain-progression|We show the player a series of numbers, forming an arithmetic progression, replacing any of the numbers with two dots. The player must determine this number.|medium|
+|brain-prime|Prime number check. Answer "yes" if given number is prime. Otherwise answer "no"|hard|
 
 _____
 
