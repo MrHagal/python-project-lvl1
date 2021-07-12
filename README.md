@@ -24,6 +24,9 @@ Help install:
 
 ### Installing a package with games
 pip install --user git+https://github.com/MrHagal/python-project-lvl1.git
+
+Video presentation of package installation
+<a href="https://asciinema.org/a/iOAPlR4TMexqvAEuiQY8yj0eC" target="_blank"><img src="https://asciinema.org/a/iOAPlR4TMexqvAEuiQY8yj0eC.svg" /></a>
 _______
 
 ### Games content
