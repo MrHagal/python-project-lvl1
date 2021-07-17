@@ -3,21 +3,25 @@
 import operator
 import random
 
+START_INTERVAL = 1
+END_INTERVAL = 10
+
+operation_signs = \
+    {'+': operator.add,
+     '-': operator.sub,
+     '*': operator.mul,
+     }
+
 
 def introduction_to_game():
-    print('What is the result of the expression?')
+    return 'What is the result of the expression?'
 
 
 def run_calc():
-    operation_signs = \
-        {'+': operator.add,
-         '-': operator.sub,
-         '*': operator.mul,
-         }
-    number_1 = random.randint(1, 10)
-    number_2 = random.randint(1, 10)
-    sign = list(operation_signs.keys())
-    random_chosen_sign = random.choice(sign)
-    result_calculation = operation_signs[random_chosen_sign](number_1, number_2)
-    arithmetic_operations = [number_1, random_chosen_sign, number_2]
+    number_1 = random.randint(START_INTERVAL, END_INTERVAL)
+    number_2 = random.randint(START_INTERVAL, END_INTERVAL)
+    signs = tuple(operation_signs.items())
+    sign_operator, action = random.choice(signs)
+    result_calculation = action(number_1, number_2)
+    arithmetic_operations = f'{number_1} {sign_operator} {number_2}'
     return arithmetic_operations, result_calculation

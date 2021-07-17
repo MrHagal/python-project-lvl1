@@ -2,20 +2,24 @@
 
 import random
 
+START_INTERVAL_1 = 1
+END_INTERVAL_2 = 50
+START_INTERVAL_3 = 51
+END_INTERVAL_4 = 100
+
 
 def introduction_to_game():
-    print('What number is missing in the progression?')
+    return 'What number is missing in the progression?'
 
 
 def random_number_list():
+    number_1 = random.randint(START_INTERVAL_1, END_INTERVAL_2)
+    number_2 = random.randint(START_INTERVAL_3, END_INTERVAL_4)
     random_lists = []
     while len(random_lists) not in range(5, 10):
-        random_lists = []
-        number_1 = random.randint(1, 50)
-        number_2 = random.randint(51, 100)
         step = random.randint(1, 20)
-        for i in range(number_1, number_2, step):
-            random_lists.append(i)
+        i = iter(range(number_1, number_2, step))
+        random_lists = list(i)
     return random_lists
 
 
