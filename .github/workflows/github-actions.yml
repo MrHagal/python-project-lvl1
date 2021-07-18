@@ -12,14 +12,15 @@ on:
       - main
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Check out repository code
-      uses: actions/checkout@v2
-    - name: List files in the repository
-      run: ls ${{ github.workspace }}
-    - name: Install poetry and make lint
-      run: |
-        pip install poetry
-        make install
-        make lint
+  Check and run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: List files in the repository
+        run: ls ${{ github.workspace }}
+      - name: Install poetry and make lint
+        run: |
+          pip install poetry
+          make install
+          make lint
