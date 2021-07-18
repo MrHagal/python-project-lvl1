@@ -7,7 +7,6 @@ from brain_games.welcome_games import hello_player
 NUMBER_GAMES = 3  # количество игр всего
 
 
-
 def run_engine(run_game, introduction_to_game):
     count_game_attempt = 0  # считаем попытки игры
     name_player = hello_player()

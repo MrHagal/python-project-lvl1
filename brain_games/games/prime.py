@@ -2,21 +2,22 @@
 import random
 
 START_INTERVAL = 2
-END_INTERVAL = 5
+END_INTERVAL = 100
+MIN_PRIME = 2
 
 
 def introduction_to_game():
     return 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def ago_prime():
-    number = random.randint(START_INTERVAL, END_INTERVAL)
-    return number
+def random_number():
+    max_prime = random.randint(START_INTERVAL, END_INTERVAL)
+    return max_prime
 
 
-def run_prime():
-    number = ago_prime()
-    for i in range(2, number):
-        if number % i == 0 and number != i:
-            return number, 'no'
-    return number, 'yes'
+def check_prime():
+    max_prime = random_number()
+    for iterator_prime in range(MIN_PRIME, max_prime):
+        if max_prime % iterator_prime == 0 and max_prime != iterator_prime:
+            return max_prime, 'no'
+    return max_prime, 'yes'
