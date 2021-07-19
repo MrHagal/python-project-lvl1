@@ -26,6 +26,7 @@ def arithmetic_progression():
 def hidden_value_progression():
     progression_lists = arithmetic_progression()
     random_hidden_value = random.randint(0, len(progression_lists) - 1)
-    game_question = progression_lists[random_hidden_value]
+    answer_game = progression_lists[random_hidden_value]
     progression_lists[random_hidden_value] = '..'
-    return progression_lists, game_question
+    game_question = ' '.join(list(map(str, progression_lists)))
+    return game_question, answer_game
