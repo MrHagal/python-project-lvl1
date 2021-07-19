@@ -1,21 +1,14 @@
-#----------------------------------------------------------------
-# Git Action - "Brain Games"
-#
-# Copyleft (c) by Andrey Bolgartsev 2021
-#----------------------------------------------------------------
-name: GitHub Actions BrainGames
-on:
-  push:
-    branches:
-      - main
+name: GitHub Actions
+on: [push]
 jobs:
-  Check-and-run:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: List files in the repository
-        run: ls ${{ github.workspace }}
+        run: |
+          ls ${{ github.workspace }}
       - name: Install poetry and make lint
         run: |
           pip install poetry

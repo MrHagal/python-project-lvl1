@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import random
 
 START_INTERVAL = 1
@@ -7,8 +6,7 @@ END_INTERVAL = 10
 
 
 def introduction_to_game():
-    return 'Find the greatest common ' \
-           'divisor of given numbers.'
+    return 'Find the greatest common divisor of given numbers.'
 
 
 def random_number():
