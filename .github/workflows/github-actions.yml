@@ -9,7 +9,7 @@ on:
     branches:
       - main
 jobs:
-  Check and run:
+  Check-and-run:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
