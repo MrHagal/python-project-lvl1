@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import random
 
 START_INTERVAL_1 = 1
