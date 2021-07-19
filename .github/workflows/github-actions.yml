@@ -3,14 +3,11 @@
 #
 # Copyleft (c) by Andrey Bolgartsev 2021
 #----------------------------------------------------------------
-
-name: GitHubActions-BrainGames
-
+name: GitHub Actions BrainGames
 on:
   push:
     branches:
       - main
-
 jobs:
   Check and run:
     runs-on: ubuntu-latest
