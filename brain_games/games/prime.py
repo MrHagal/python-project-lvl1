@@ -3,7 +3,8 @@ import random
 
 START_INTERVAL = 2
 END_INTERVAL = 89
-INTRODUCTION_TO_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+INTRODUCTION_TO_GAME =\
+    'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def check_prime():

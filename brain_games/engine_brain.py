@@ -10,7 +10,7 @@ def run_engine(create_question_answer, INTRODUCTION_TO_GAME):
     print('Welcome to the Brain Games!')
     name_player = prompt.string('May I have your name? ')
     print(f'Hello, {name_player}!')
-    print(INTRODUCTION_TO_GAME)л
+    print(INTRODUCTION_TO_GAME)
     while break_count_game != NUMBER_GAMES:
         question, correct_answer = create_question_answer()
         print(f"Question: {question}")
