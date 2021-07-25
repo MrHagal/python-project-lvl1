@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 from brain_games.games.progression \
-    import hidden_value_progression, introduction_to_game
+    import hidden_value_progression, INTRODUCTION_TO_GAME
 from brain_games.engine_brain import run_engine
 
 
 def main():
-    run_engine(hidden_value_progression, introduction_to_game)
+    run_engine(hidden_value_progression, INTRODUCTION_TO_GAME)
 
 
 if __name__ == '__main__':

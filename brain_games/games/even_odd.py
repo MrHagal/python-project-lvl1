@@ -4,19 +4,15 @@ import random
 
 START_INTERVAL = 1
 END_INTERVAL = 100
-
-
-def introduction_to_game():
-    return 'Answer "yes" if the number is even, otherwise answer "no".'
-
-
-def random_number():
-    number = random.randint(START_INTERVAL, END_INTERVAL)
-    return number
+INTRODUCTION_TO_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def check_even():
-    number = random_number()
-    if number % 2 == 0:
+    number = random.randint(START_INTERVAL, END_INTERVAL)
+    if has_even(number) == 0:
         return number, 'yes'
     return number, 'no'
+
+
+def has_even(number):
+    return number % 2
