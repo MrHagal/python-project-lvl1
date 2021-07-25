@@ -3,8 +3,8 @@
 import operator
 import random
 
-START_INTERVAL = 1
-END_INTERVAL = 10
+MAX_RANDOM = 1
+MIN_RANDOM = 10
 INTRODUCTION_TO_GAME =\
     'What is the result of the expression?'
 
@@ -16,16 +16,16 @@ operation_signs = \
 
 
 def question_answer():
-    number_1 = random.randint(START_INTERVAL, END_INTERVAL)
-    number_2 = random.randint(START_INTERVAL, END_INTERVAL)
+    number_1 = random.randint(MAX_RANDOM, MIN_RANDOM)
+    number_2 = random.randint(MAX_RANDOM, MIN_RANDOM)
     signs = tuple(operation_signs.items())
-    sign_operator, action = random.choice(signs)
+    operator_sign, action = random.choice(signs)
     question, answer = calculation_calc(
-        number_1, number_2, sign_operator, action)
+        number_1, number_2, operator_sign, action)
     return question, answer
 
 
-def calculation_calc(number_1, number_2, sign_operator, action):
+def calculation_calc(number_1, number_2, operator_sign, action):
     result_calculation = action(number_1, number_2)
-    game_question = f'{number_1} {sign_operator} {number_2}'
+    game_question = f'{number_1} {operator_sign} {number_2}'
     return game_question, result_calculation
