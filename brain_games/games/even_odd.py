@@ -4,7 +4,8 @@ import random
 
 START_INTERVAL = 1
 END_INTERVAL = 100
-INTRODUCTION_TO_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
+INTRODUCTION_TO_GAME =\
+    'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def check_even():

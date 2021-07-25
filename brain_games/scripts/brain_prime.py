@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-from brain_games.games.prime import check_prime, INTRODUCTION_TO_GAME
+from brain_games.games.prime\
+    import check_prime, INTRODUCTION_TO_GAME
 from brain_games.engine_brain import run_engine
 
 
