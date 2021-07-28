@@ -3,8 +3,8 @@
 import operator
 import random
 
-MIN_LENGTH = 1
-MAX_LENGTH = 100
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 INTRODUCTION_TO_GAME =\
     'What is the result of the expression?'
 
@@ -16,8 +16,8 @@ operation_signs = \
 
 
 def generate_question_and_answer():
-    number_1 = random.randint(MIN_LENGTH, MAX_LENGTH)
-    number_2 = random.randint(MIN_LENGTH, MAX_LENGTH)
+    number_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    number_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     signs = tuple(operation_signs.items())
     operator_sign, action = random.choice(signs)
     question, answer = calculation_calc(
